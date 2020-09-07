@@ -3,7 +3,7 @@
 ### Example user template
 
 # IntelliJ project files
-.idea
+#.idea
 *.iml
 out
 gen
@@ -20,3 +20,4 @@ buildNumber.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
 
+!/COMP3021-2020Fall-PA1-Student-Version.iml
