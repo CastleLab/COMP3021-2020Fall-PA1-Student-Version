@@ -26,3 +26,10 @@ More information can be found in [Intellij IDEA documentation](https://www.jetbr
 4. Run the created run configuration in the toolbar to run tests. 
 
 More information can be found in [Intellij IDEA documentation](https://www.jetbrains.com/help/idea/run-debug-configuration-application.html). 
+
+### Q3: How to get the code coverage of tests?
+
+1. Select the run configuration of tests created in Q2. 
+2. Click the `Run with Coverage` button in the toolbar.
+![Q3-1](artifacts/img/Q3-1.png)
+3. After the running, a side window will show up with different types of coverage report. 

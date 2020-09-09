@@ -1,5 +1,10 @@
 ## COMP3021 2020Fall Programming Assignment 1
 
+Please clone this repository, or download the zip file in the [Release](/releases/latest). 
+Then, you need to create a **PRIVATE** Github repository of your own, and upload your code there. 
+Please make sure to frequently make commits in your repository since commits also contribute to your grade of
+ assignment 1. 
+
 ## Background
 
 [Jeson Mor](https://en.wikipedia.org/wiki/Jeson_Mor) is a two-player strategy board game from Mongolia, which is a
@@ -175,14 +180,26 @@ The score of a move is the [Manhattan distance](https://xlinux.nist.gov/dads/HTM
  the destination and source of the move. 
 * Players cannot capture pieces of their enemy or win within the first `N` moves, where `N` should be configurable.
 
-### Bonus Tasks
+### Bonus Task 1 - Archer
 
 Implement piece type `Archer`, which moves in the same way as **cannon in Chinese chess** 
  [(Wikipedia)](https://en.wikipedia.org/wiki/Xiangqi#Cannon). 
 When initialize the gameboard, each player should have half knights and half archers. 
-Since the total number is odd, the difference between the number of knights and archers should be 1.
+Since the total number is odd, each player should have one more knight than archers. 
+The arrangement of knights and archers of each player are should be in a staggered pattern. 
 
 **Note** that player cannot win the game by move an archer out of the central place. 
+
+### Bonus Task 2 - Additional Tests
+
+In this bonus task, you are required to design additional JUnit5 tests besides the sample tests provided by us. 
+The objective of this bonus task is to increase the [branch coverage](https://en.wikipedia.org/wiki/Code_coverage) of
+ all classes under folder `src/main/java` by executing your tests along with the sample tests, compared
+ with only using sample tests. 
+The more branches (that are not covered by sample tests) are covered by your tests, the more bonus points you will get. 
+You can get 1 point for each 10% improvement of branch coverage. 
+
+Your additional tests should be put in the `AdditionalTests` class in folder `src/test/java/castle/comp3021/assignment`.
 
 ## Obfuscated Version
 
@@ -214,6 +231,12 @@ We provide code skeleton with detailed JavaDoc for you to complete this assignem
 `// TODO student implementation` indicates that you should write your own code there. 
 There are in total 9 (10 if you plan to implement Archer) `TODO`s for you to implement.
 Do not modify other parts of the Java code, otherwise many tests will fail unexpectedly.  
+
+### Dependencies
+
+Code of this assignment depends on several libraries, including `JUnit5` and Jetbrains `Annotations`. 
+Jar package of these dependencies are provided in folder `lib`, you need to add `lib` folder as the library of your
+ IntelliJ Project. Typically, this is already done, if you download use the prepared code in this repository. 
 
 ### Coordinate System
 
@@ -262,6 +285,8 @@ Sample tests are given in `src/test/java` folder.
 
 * Try your best to consider as many corner cases as possible, your tests will test if your implementation is robust
  enough to handle various kinds of scenarios. 
+* If you have doubts of any behaviours that are not specified, you can check the provided obfuscated version, or ask
+ the TAs. 
  
 ### Frequently Asked Questions
 
@@ -289,6 +314,8 @@ Note that good code style is also a part of your grade in this assignment.
 Your submission is a zip file including: 
 * The Java project. Please maintain the original file structure. 
 * A `github_url.txt` file containing the url of your private repository. 
+  We will ask you to add TAs' accounts as collaborators.
+You need to submit your zip file in [CASS](https://cssystem.cse.ust.hk/UGuides/cass/index.html) (not CANVAS).
 
 ## Plagiarism
 
@@ -308,7 +335,8 @@ We will conduct code plagiarism tests on your program, and your grade will be de
 | Keep your Github repository private                 | 5%         | You must keep your repository private all the time.                        |
 | At least 3 commits in different days                 | 5%         | You must commit in **three** **different** days in your repository.                        |
 | Pass all sample tests      | 10%         | (# of passed tests / # of sample tests) * 30%                             |
-| Pass all TA-only unit tests        | 40%         | (# of passed tests / # of unit tests) * 40%                                |
-| Pass all TA-only integrated tests  | 30%         | (# of passed tests / # of integrated tests) * 10%                        |
+| Pass all TA-only unit tests        | 40%         | (`# of passed tests` / `# of unit tests`) * 40%                                |
+| Pass all TA-only integrated tests  | 30%         | (`# of passed tests` / `# of integrated tests`) * 10%                        |
 | Code Style                 | 10%         | Get 10% if no error in code style checking. Deduct 1% for each 5 errors.  |
-| Pass tests for Bonus tasks | Up to 10%    |  (# of passed tests / # of all tests) * 10%                                      |
+| Bonus Task 1: Pass tests for Bonus tasks 1 | Up to 10%    |  (`# of passed tests` / `# of all tests`) * 10%                                      |
+| Bonus Task 2: new tests increasing branch coverage | Up to 5%    |  (`Branch Coverage of Your tests, including sample tests` - `Branch Coverage of Sample tests`) * 10% |

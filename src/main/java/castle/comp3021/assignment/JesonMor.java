@@ -114,7 +114,7 @@ public class JesonMor extends Game {
     /**
      * Get all available moves of one player.
      * This method is called when it is the {@link Player}'s turn to make a move.
-     * It will iterative all {@link Piece}s belonging to the {@link Player} on board and obtain available moves of
+     * It will iterate all {@link Piece}s belonging to the {@link Player} on board and obtain available moves of
      * each of the {@link Piece}s through method {@link Piece#getAvailableMoves(Game, Place)} of each {@link Piece}.
      * <p>
      * <strong>Attention: Student should make sure all {@link Move}s returned are valid.</strong>
