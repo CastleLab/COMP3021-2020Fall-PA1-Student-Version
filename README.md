@@ -1,6 +1,6 @@
 ## COMP3021 2020Fall Programming Assignment 1
 
-Please clone this repository, or download the zip file in the [Release](releases/tag/PA1_release). 
+Please clone this repository, or download the zip file in the [Release](/releases/tag/PA1_release). 
 Then, you need to create a **PRIVATE** Github repository of your own, and upload your code there. 
 Please make sure to frequently make commits in your repository since commits also contribute to your grade of
  assignment 1. 
