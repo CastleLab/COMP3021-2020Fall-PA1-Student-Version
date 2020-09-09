@@ -1,74 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="294addc6-b9fc-4824-9c4b-cacfd7251411" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/test/java/castle/comp3021/assignment/AdditionalTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="294addc6-b9fc-4824-9c4b-cacfd7251411" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/allclasses-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/allpackages-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/castle/comp3021/assignment/JesonMor.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/castle/comp3021/assignment/JesonMor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/castle/comp3021/assignment/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/castle/comp3021/assignment/Main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/castle/comp3021/assignment/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/castle/comp3021/assignment/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/castle/comp3021/assignment/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/castle/comp3021/assignment/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/castle/comp3021/assignment/piece/Archer.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/castle/comp3021/assignment/piece/Archer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/castle/comp3021/assignment/piece/Knight.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/castle/comp3021/assignment/piece/Knight.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/castle/comp3021/assignment/piece/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/castle/comp3021/assignment/piece/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/castle/comp3021/assignment/piece/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/castle/comp3021/assignment/piece/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/castle/comp3021/assignment/player/ConsolePlayer.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/castle/comp3021/assignment/player/ConsolePlayer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/castle/comp3021/assignment/player/RandomPlayer.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/castle/comp3021/assignment/player/RandomPlayer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/castle/comp3021/assignment/player/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/castle/comp3021/assignment/player/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/castle/comp3021/assignment/player/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/castle/comp3021/assignment/player/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/castle/comp3021/assignment/protocol/Color.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/castle/comp3021/assignment/protocol/Color.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/castle/comp3021/assignment/protocol/Configuration.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/castle/comp3021/assignment/protocol/Configuration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/castle/comp3021/assignment/protocol/Game.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/castle/comp3021/assignment/protocol/Game.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/castle/comp3021/assignment/protocol/Move.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/castle/comp3021/assignment/protocol/Move.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/castle/comp3021/assignment/protocol/MoveRecord.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/castle/comp3021/assignment/protocol/MoveRecord.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/castle/comp3021/assignment/protocol/Piece.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/castle/comp3021/assignment/protocol/Piece.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/castle/comp3021/assignment/protocol/Place.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/castle/comp3021/assignment/protocol/Place.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/castle/comp3021/assignment/protocol/Player.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/castle/comp3021/assignment/protocol/Player.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/castle/comp3021/assignment/protocol/exception/InvalidConfigurationError.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/castle/comp3021/assignment/protocol/exception/InvalidConfigurationError.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/castle/comp3021/assignment/protocol/exception/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/castle/comp3021/assignment/protocol/exception/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/castle/comp3021/assignment/protocol/exception/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/castle/comp3021/assignment/protocol/exception/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/castle/comp3021/assignment/protocol/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/castle/comp3021/assignment/protocol/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/castle/comp3021/assignment/protocol/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/castle/comp3021/assignment/protocol/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/constant-values.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/deprecated-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/help-doc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index-files/index-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index-files/index-10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index-files/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index-files/index-11.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index-files/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index-files/index-12.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index-files/index-13.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index-files/index-13.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index-files/index-14.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index-files/index-14.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index-files/index-15.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index-files/index-15.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index-files/index-16.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index-files/index-16.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index-files/index-17.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index-files/index-17.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index-files/index-18.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index-files/index-18.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index-files/index-19.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index-files/index-19.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index-files/index-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index-files/index-20.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index-files/index-20.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index-files/index-21.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index-files/index-21.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index-files/index-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index-files/index-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index-files/index-5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index-files/index-6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index-files/index-7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index-files/index-8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index-files/index-9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/member-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/doc/member-search-index.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/overview-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/overview-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/package-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/doc/package-search-index.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/serialized-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/serialized-form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/system-properties.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/system-properties.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/type-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/doc/type-search-index.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/castle/comp3021/assignment/JesonMor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/castle/comp3021/assignment/JesonMor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/castle/comp3021/assignment/protocol/Place.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/castle/comp3021/assignment/protocol/Place.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/castle/comp3021/assignment/IntegratedTestsWithArcher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/castle/comp3021/assignment/IntegratedTestsWithoutArcher.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +10,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
@@ -99,7 +39,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/artifacts" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -112,12 +52,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/artifacts" />
+      <recent name="$PROJECT_DIR$/artifacts/img" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main" />
       <recent name="$PROJECT_DIR$/src/test" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.Test">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="castle.comp3021.assignment.Main" />
       <module name="COMP3021-2020Fall-PA1-Student-Version" />
@@ -167,30 +109,68 @@
       <option name="presentableId" value="Default" />
       <updated>1599475143090</updated>
       <workItem from="1599475145124" duration="72000" />
-      <workItem from="1599617577969" duration="790000" />
+      <workItem from="1599617577969" duration="1357000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1599619789508</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599619789508</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="328" y="106" key="#Project_Structure" timestamp="1599619196773">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="328" y="106" key="#Project_Structure/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599619196773" />
-    <state x="304" y="187" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599475216122">
+    <state x="304" y="187" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599619684599">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599619684599" />
     <state x="304" y="187" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1599475216122" />
-    <state x="251" y="93" key="CommitChangelistDialog2" timestamp="1599619279430">
+    <state x="251" y="93" key="CommitChangelistDialog2" timestamp="1599619789285">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="251" y="93" key="CommitChangelistDialog2/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599619279430" />
+    <state x="251" y="93" key="CommitChangelistDialog2/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599619789285" />
+    <state width="1638" height="284" key="GridCell.Tab.0.bottom" timestamp="1599619493079">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="284" key="GridCell.Tab.0.bottom/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599619493079" />
+    <state width="1638" height="284" key="GridCell.Tab.0.center" timestamp="1599619493077">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="284" key="GridCell.Tab.0.center/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599619493077" />
+    <state width="1638" height="284" key="GridCell.Tab.0.left" timestamp="1599619493076">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="284" key="GridCell.Tab.0.left/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599619493076" />
+    <state width="1638" height="284" key="GridCell.Tab.0.right" timestamp="1599619493078">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="284" key="GridCell.Tab.0.right/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599619493078" />
     <state x="328" y="106" key="SettingsEditor" timestamp="1599619404617">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="328" y="106" key="SettingsEditor/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599619404617" />
     <state x="328" y="106" key="SettingsEditor/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1599475182681" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1599619837473">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599619837473" />
+    <state x="509" y="374" key="git4idea.ui.GitTagDialog" timestamp="1599619834414">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="509" y="374" key="git4idea.ui.GitTagDialog/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599619834414" />
   </component>
 </project>
