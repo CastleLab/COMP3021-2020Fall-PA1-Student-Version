@@ -315,6 +315,7 @@ Your submission is a zip file including:
 * The Java project. Please maintain the original file structure. 
 * A `github_url.txt` file containing the url of your private repository. 
   We will ask you to add TAs' accounts as collaborators.
+
 You need to submit your zip file in [CASS](https://cssystem.cse.ust.hk/UGuides/cass/index.html) (not CANVAS).
 
 ## Plagiarism
