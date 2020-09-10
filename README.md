@@ -222,8 +222,9 @@ You can use `Ctrl-C/Command-C` to interrupt/terminate the program.
 
 ## Java Doc
 
-Java doc of this assignment is available in `doc`.
-You can open `doc/index.html` to view it in your browser. 
+[Java doc](https://castlelab.github.io/COMP3021-2020Fall-PA1-Student-Version/) of this assignment is available in
+ `docs`.
+You can open `docs/index.html` to view it in your browser. 
 
 ## Code Skeleton
 
