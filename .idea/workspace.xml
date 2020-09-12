@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="294addc6-b9fc-4824-9c4b-cacfd7251411" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FAQ.md" beforeDir="false" afterPath="$PROJECT_DIR$/FAQ.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,24 +40,25 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/artifacts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/artifacts" />
       <recent name="$PROJECT_DIR$/artifacts/img" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main" />
-      <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.Test">
@@ -70,17 +72,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,6 +99,11 @@
       <updated>1599475143090</updated>
       <workItem from="1599475145124" duration="72000" />
       <workItem from="1599617577969" duration="2998000" />
+      <workItem from="1599714222095" duration="268000" />
+      <workItem from="1599725964240" duration="123000" />
+      <workItem from="1599727122206" duration="15000" />
+      <workItem from="1599924735686" duration="33000" />
+      <workItem from="1599924796175" duration="417000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1599619789508</created>
@@ -144,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599622186292</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="make JavaDoc available in GitHub Page">
+      <created>1599714319110</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599714319110</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,7 +156,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="make JavaDoc available in GitHub Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="make JavaDoc available in GitHub Page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="328" y="106" key="#Project_Structure" timestamp="1599619196773">
@@ -165,10 +169,11 @@
     </state>
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599619684599" />
     <state x="304" y="187" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1599475216122" />
-    <state x="251" y="93" key="CommitChangelistDialog2" timestamp="1599622186181">
+    <state x="234" y="102" key="CommitChangelistDialog2" timestamp="1599714318914">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="251" y="93" key="CommitChangelistDialog2/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599622186181" />
+    <state x="234" y="102" key="CommitChangelistDialog2/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1599714318914" />
     <state x="165" y="93" key="DiffContextDialog" timestamp="1599620432334">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -193,15 +198,17 @@
     </state>
     <state width="1638" height="284" key="GridCell.Tab.0.right/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599620487804" />
     <state width="1638" height="284" key="GridCell.Tab.0.right/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1599628349153" />
-    <state x="328" y="106" key="SettingsEditor" timestamp="1599619404617">
+    <state x="328" y="106" key="SettingsEditor" timestamp="1599726074766">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="328" y="106" key="SettingsEditor/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599619404617" />
+    <state x="328" y="106" key="SettingsEditor/624.-1057.1920.1057/0.0.1680.1050/-1296.-1057.1920.1057@0.0.1680.1050" timestamp="1599726074766" />
     <state x="328" y="106" key="SettingsEditor/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1599475182681" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1599622187604">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1599714320630">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599622187604" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1599714320630" />
     <state x="509" y="374" key="git4idea.ui.GitTagDialog" timestamp="1599619834414">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

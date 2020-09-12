@@ -33,3 +33,11 @@ More information can be found in [Intellij IDEA documentation](https://www.jetbr
 2. Click the `Run with Coverage` button in the toolbar.
 ![Q3-1](artifacts/img/Q3-1.png)
 3. After the running, a side window will show up with different types of coverage report. 
+
+### Q4: Is there a required error handling format for invalid input of `ConsolePlayer`? 
+
+No, since we do not use Exceptions in assignment 1, there is no error format for invalid inputs from console.
+In the TA-only tests, we do not test the error message you print.
+The thing you should do is to check whether the input is a valid input or not, if it is invalid, tell user to re-input. 
+Note that the input format should be consistent with what is described in [README](README.md#basic-tasks), e.g. `a1->b3`. 
+Inputs not complying to this format should also be considered invalid.
