@@ -41,3 +41,9 @@ In the TA-only tests, we do not test the error message you print.
 The thing you should do is to check whether the input is a valid input or not, if it is invalid, tell user to re-input. 
 Note that the input format should be consistent with what is described in [README](README.md#basic-tasks), e.g. `a1->b3`. 
 Inputs not complying to this format should also be considered invalid.
+
+### Q5: Can I create other new methods or classes apart from the given ones? Can I import or use some extra library in the assignment? 
+
+Yes, you are free to create new methods and classes or use any library, utility class or advanced features of Java. 
+If you plan to use non-builtin packages or libraries, be sure to put the “jar” file of the external package or library
+ in the “lib” folder, so that we can make your code work correctly when grading. 
