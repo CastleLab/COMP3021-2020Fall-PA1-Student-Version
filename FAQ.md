@@ -6,24 +6,34 @@
 2. Click the `▶` symbol on the left of main method. 
 3. Select the `Edit 'Main.main()'...` in the context menu. This will open a window to create a run configuration.
 
-<img src="artifacts/img/Q1-1.png" width="100"></img>
+<img src="artifacts/img/Q1-1.png" width="60%"></img>
+
 4. In the opened window, set the `Name` of this run configuration and specify program arguments in `Program arguments
 ` textbox. Arguments are separated by space. After that, click `OK` to save the run configuration.
-![Q1-2](artifacts/img/Q1-2.png)
+
+<img src="artifacts/img/Q1-2.png" width="60%"></img>
+
 5. In the toolbar, select the run configuration you just created and run it by clicking the button `▶` in the toolbar.
-![Q1-3](artifacts/img/Q1-3.png)
+
+<img src="artifacts/img/Q1-3.png" width="30%"></img>
 
 More information can be found in [Intellij IDEA documentation](https://www.jetbrains.com/help/idea/run-debug-configuration-application.html). 
 
 ### Q2: How to run the sample tests?
 
 1. Open the `Edit Configurations` window as shown in the below image.
-![Q2-1](artifacts/img/Q2-1.png)
+
+<img src="artifacts/img/Q2-1.png" width="30%"></img>
+
 2. In the opened window, click the `✛` button and select `Junit`.
-![Q2-2](artifacts/img/Q2-2.png)
+
+<img src="artifacts/img/Q2-2.png" width="90%"></img>
+
 3. On the right side, set the name, select `Test kind` as `All in directory` and then set the directory as `src/test
 `. After that click `OK` to save the run configuration.
-![Q2-3](artifacts/img/Q2-3.png)
+
+<img src="artifacts/img/Q2-3.png" width="90%"></img>
+
 4. Run the created run configuration in the toolbar to run tests. 
 
 More information can be found in [Intellij IDEA documentation](https://www.jetbrains.com/help/idea/run-debug-configuration-application.html). 
@@ -32,7 +42,9 @@ More information can be found in [Intellij IDEA documentation](https://www.jetbr
 
 1. Select the run configuration of tests created in Q2. 
 2. Click the `Run with Coverage` button in the toolbar.
-![Q3-1](artifacts/img/Q3-1.png)
+
+<img src="artifacts/img/Q3-1.png" width="30%"></img>
+
 3. After the running, a side window will show up with different types of coverage report. 
 
 ### Q4: Is there a required error handling format for invalid input of `ConsolePlayer`? 
@@ -56,7 +68,9 @@ This is mostly because you are using `Windows` and the `Command Prompt` and `Pow
 One simple workaround is to use the `Run Configuration` of IntelliJ. 
 You can create a new [`Run Configuration`](https://www.jetbrains.com/help/idea/run-debug-configurations-dialog.html) of type: 
  [`JAR Application`](https://www.jetbrains.com/help/idea/run-debug-configuration-jar.html), as is shown below. 
-![Q6-1](artifacts/img/Q6-1.png)
+ 
+ <img src="artifacts/img/Q6-1.png" width="90%"></img>
+
 In the `Path to JAR`, select the path to `PA1_obfuscated.jar` file.
 In the `Program arguments`, put the arguments of `PA1_obfuscated.jar`. 
 Then you can click `OK` to save the `Run Configuration` and run it. 
