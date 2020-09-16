@@ -57,8 +57,8 @@ public class Configuration implements Cloneable {
         if (size % 2 != 1) {
             throw new InvalidConfigurationError("size of gameboard must be an odd number");
         }
-        if (size > 26) {
-            throw new InvalidConfigurationError("size of gameboard is at most 26");
+        if (size > 25) {
+            throw new InvalidConfigurationError("size of gameboard is at most 25");
         }
         this.size = size;
         // We only have 2 players
