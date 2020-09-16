@@ -47,3 +47,17 @@ Inputs not complying to this format should also be considered invalid.
 Yes, you are free to create new methods and classes or use any library, utility class or advanced features of Java. 
 If you plan to use non-builtin packages or libraries, be sure to put the “jar” file of the external package or library
  in the “lib” folder, so that we can make your code work correctly when grading. 
+
+### Q6: Why does the obfuscated version print a lot of corrupted characters like `?[34mK?[0m ?[34MA?[0m` in the output? 
+
+This is mostly because you are using `Windows` and the `Command Prompt` and `PowerShell` on `Windows` can not
+ recognize ANSI color in stdout. 
+One simple workaround is to use the `Run Configuration` of IntelliJ. 
+You can create a new [`Run Configuration`](https://www.jetbrains.com/help/idea/run-debug-configurations-dialog.html) of type: 
+ [`JAR Application`](https://www.jetbrains.com/help/idea/run-debug-configuration-jar.html), as is shown below. 
+![Q6-1](artifacts/img/Q6-1.png)
+In the `Path to JAR`, select the path to `PA1_obfuscated.jar` file.
+In the `Program arguments`, put the arguments of `PA1_obfuscated.jar`. 
+Then you can click `OK` to save the `Run Configuration` and run it. 
+
+In this way we run the `jar` file using IntelliJ console, which handles ANSI color correctly. 
