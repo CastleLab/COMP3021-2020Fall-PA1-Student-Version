@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="294addc6-b9fc-4824-9c4b-cacfd7251411" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/artifacts/img/Q6-1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FAQ.md" beforeDir="false" afterPath="$PROJECT_DIR$/FAQ.md" afterDir="false" />
     </list>
@@ -80,17 +79,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test" type="JUnit" factoryName="JUnit">
       <module name="COMP3021-2020Fall-PA1-Student-Version" />
       <useClassPathOnly />
@@ -123,7 +111,8 @@
       <workItem from="1599980918456" duration="667000" />
       <workItem from="1600147795388" duration="395000" />
       <workItem from="1600238953305" duration="382000" />
-      <workItem from="1600249692773" duration="1402000" />
+      <workItem from="1600249692773" duration="2068000" />
+      <workItem from="1600265083503" duration="359000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1599619789508</created>
@@ -195,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600249810985</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add FAQ of corrupted ANSI color">
+      <created>1600263065755</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1600263065755</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +205,8 @@
     <MESSAGE value="add FAQ Q5" />
     <MESSAGE value="small clarification on the upper bound of gameboard size" />
     <MESSAGE value="add submission ddl" />
-    <option name="LAST_COMMIT_MESSAGE" value="add submission ddl" />
+    <MESSAGE value="add FAQ of corrupted ANSI color" />
+    <option name="LAST_COMMIT_MESSAGE" value="add FAQ of corrupted ANSI color" />
   </component>
   <component name="WindowStateProjectService">
     <state x="328" y="106" key="#Project_Structure" timestamp="1599619196773">
@@ -221,12 +218,12 @@
     </state>
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599619684599" />
     <state x="304" y="187" width="1071" height="748" key="#com.intellij.execution.impl.EditConfigurationsDialog/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1600262719769" />
-    <state x="234" y="102" key="CommitChangelistDialog2" timestamp="1600249810802">
+    <state x="234" y="102" key="CommitChangelistDialog2" timestamp="1600263065625">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="251" y="93" key="CommitChangelistDialog2/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599622186181" />
     <state x="234" y="102" key="CommitChangelistDialog2/624.-1057.1920.1057/0.0.1680.1050/-1296.-1057.1920.1057@0.0.1680.1050" timestamp="1599925282789" />
-    <state x="234" y="102" key="CommitChangelistDialog2/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1600249810802" />
+    <state x="234" y="102" key="CommitChangelistDialog2/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1600263065625" />
     <state x="165" y="93" key="DiffContextDialog" timestamp="1599620432334">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -257,12 +254,12 @@
     <state x="328" y="106" key="SettingsEditor/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599619404617" />
     <state x="328" y="106" key="SettingsEditor/624.-1057.1920.1057/0.0.1680.1050/-1296.-1057.1920.1057@0.0.1680.1050" timestamp="1599726074766" />
     <state x="328" y="106" key="SettingsEditor/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1599475182681" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1600249812413">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1600263066813">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599622187604" />
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/624.-1057.1920.1057/0.0.1680.1050/-1296.-1057.1920.1057@0.0.1680.1050" timestamp="1599925284913" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1600249812413" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1600263066813" />
     <state x="636" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600148086022">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

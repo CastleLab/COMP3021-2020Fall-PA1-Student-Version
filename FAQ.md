@@ -5,7 +5,8 @@
 1. Open the Main class file in Intellij IDEA and find the main method.
 2. Click the `▶` symbol on the left of main method. 
 3. Select the `Edit 'Main.main()'...` in the context menu. This will open a window to create a run configuration.
-![Q1-1](artifacts/img/Q1-1.png)
+
+<img src="artifacts/img/Q1-1.png" width="100"></img>
 4. In the opened window, set the `Name` of this run configuration and specify program arguments in `Program arguments
 ` textbox. Arguments are separated by space. After that, click `OK` to save the run configuration.
 ![Q1-2](artifacts/img/Q1-2.png)
