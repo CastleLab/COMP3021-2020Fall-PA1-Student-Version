@@ -106,6 +106,7 @@
       <workItem from="1599977965559" duration="70000" />
       <workItem from="1599980918456" duration="667000" />
       <workItem from="1600147795388" duration="395000" />
+      <workItem from="1600238953305" duration="382000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1599619789508</created>
@@ -163,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600148099869</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="small clarification on the upper bound of gameboard size">
+      <created>1600239249102</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1600239249102</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,7 +183,8 @@
     <MESSAGE value="make JavaDoc available in GitHub Page" />
     <MESSAGE value="add FAQ" />
     <MESSAGE value="add FAQ Q5" />
-    <option name="LAST_COMMIT_MESSAGE" value="add FAQ Q5" />
+    <MESSAGE value="small clarification on the upper bound of gameboard size" />
+    <option name="LAST_COMMIT_MESSAGE" value="small clarification on the upper bound of gameboard size" />
   </component>
   <component name="WindowStateProjectService">
     <state x="328" y="106" key="#Project_Structure" timestamp="1599619196773">
@@ -187,12 +196,12 @@
     </state>
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599619684599" />
     <state x="304" y="187" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1599475216122" />
-    <state x="234" y="102" key="CommitChangelistDialog2" timestamp="1600148099714">
+    <state x="234" y="102" key="CommitChangelistDialog2" timestamp="1600239248953">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="251" y="93" key="CommitChangelistDialog2/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599622186181" />
     <state x="234" y="102" key="CommitChangelistDialog2/624.-1057.1920.1057/0.0.1680.1050/-1296.-1057.1920.1057@0.0.1680.1050" timestamp="1599925282789" />
-    <state x="234" y="102" key="CommitChangelistDialog2/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1600148099714" />
+    <state x="234" y="102" key="CommitChangelistDialog2/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1600239248953" />
     <state x="165" y="93" key="DiffContextDialog" timestamp="1599620432334">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -223,12 +232,12 @@
     <state x="328" y="106" key="SettingsEditor/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599619404617" />
     <state x="328" y="106" key="SettingsEditor/624.-1057.1920.1057/0.0.1680.1050/-1296.-1057.1920.1057@0.0.1680.1050" timestamp="1599726074766" />
     <state x="328" y="106" key="SettingsEditor/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1599475182681" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1600148104142">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1600239250427">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599622187604" />
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/624.-1057.1920.1057/0.0.1680.1050/-1296.-1057.1920.1057@0.0.1680.1050" timestamp="1599925284913" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1600148104142" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1600239250427" />
     <state x="636" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600148086022">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

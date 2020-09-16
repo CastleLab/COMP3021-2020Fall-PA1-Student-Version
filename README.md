@@ -318,6 +318,7 @@ Your submission is a zip file including:
   We will ask you to add TAs' accounts as collaborators.
 
 You need to submit your zip file in [CASS](https://cssystem.cse.ust.hk/UGuides/cass/index.html) (not CANVAS).
+The deadline of assignment 1 is **`5 Oct. 2020, 23:55`**. 
 
 ## Plagiarism
 
