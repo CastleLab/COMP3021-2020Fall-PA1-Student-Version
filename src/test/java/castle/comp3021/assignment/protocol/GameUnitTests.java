@@ -3,6 +3,7 @@ package castle.comp3021.assignment.protocol;
 import castle.comp3021.assignment.JesonMor;
 import castle.comp3021.assignment.mock.MockPiece;
 import castle.comp3021.assignment.mock.MockPlayer;
+import castle.comp3021.assignment.piece.Knight;
 import castle.comp3021.assignment.util.Compares;
 import castle.comp3021.assignment.util.SampleTest;
 import org.junit.jupiter.api.Assertions;
@@ -97,16 +98,18 @@ public class GameUnitTests {
     public void testWinByLeaveCentralPlace() {
         var player1 = new MockPlayer();
         var player2 = new MockPlayer();
-        var piece1 = new MockPiece(player1);
+        var piece1 = new Knight(player1);
         var config = new Configuration(5, new Player[]{player1, player2});
-        config.addInitialPiece(piece1, 3, 2);
-        config.addInitialPiece(new MockPiece(player2), 2, 1);
+        config.addInitialPiece(piece1, 1, 0);
+        config.addInitialPiece(new Knight(player2), 2, 1);
         var game = new JesonMor(config);
-        game.board[1][2] = game.board[3][2];
-        game.board[3][2] = null;
+        game.board[1][4] = game.board[1][0];
+        game.board[1][0] = null;
+        game.board[3][3] = game.board[2][1];
+        game.board[2][1] = null;
         game.numMoves = 3;
         game.currentPlayer = player1;
-        var winner = game.getWinner(player1, piece1, new Move(2, 2, 1, 2));
+        var winner = game.getWinner(player1, piece1, new Move(2, 2, 1, 4));
         assertEquals(player1, winner);
     }
 }
