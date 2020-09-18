@@ -144,6 +144,8 @@ Note that leaving the central square does not have to be the immediately subsequ
  square. 
 * Capture all the pieces of the other player. 
 
+**Note that only knights can win the game by leaving the central place while archers cannot.**
+
 **Tie Breaking Rule**: If there is no available moves for the player, the game ends and the player with lower score
  wins. If two players have the same score, current player (the player who should make a move now but there is no
   available moves) wins.
