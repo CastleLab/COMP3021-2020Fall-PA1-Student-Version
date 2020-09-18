@@ -32,7 +32,7 @@ public class GameMockPlayerIntegratedTests {
     @Test
     @SampleTest
     public void testCentralPlaceWin() {
-        var config = this.config = new Configuration(5, new Player[]{player1, player2});
+        var config = new Configuration(5, new Player[]{player1, player2});
         config.addInitialPiece(new Knight(player1), 0, 0);
         config.addInitialPiece(new Knight(player2), 4, 4);
         player1.setNextMoves(new Move[]{
