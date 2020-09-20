@@ -263,8 +263,9 @@ You should convert different formats between Place object and console.
  piece. The move returned should be a **VALID** move. 
  
 * `void Game.updateScore(Player player, Piece piece, Move move)` method updates the score of the give player according
- to the move, and the piece he just moved. You should make no assumption on whether `move` is valid or not. 
- Your implementation should be able to handle an invalid move here (e.g. out of boundary of gameboard). 
+ to the move, and the piece he just moved. We do not want you to validate the move inside this method, since in
+  unit tests, this method may be called separately without a valid gameboard being constructed. So all you need is to
+   implement the score algorithm. That's it. 
  
 ### Program Entry
 
