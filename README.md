@@ -340,9 +340,9 @@ We will conduct code plagiarism tests on your program, and your grade will be de
 |----------------------------|-------------|---------------------------------------------------------------------------|
 | Keep your Github repository private                 | 5%         | You must keep your repository private all the time.                        |
 | At least 3 commits in different days                 | 5%         | You must commit in **three** **different** days in your repository.                        |
-| Pass all sample tests      | 10%         | (# of passed tests / # of sample tests) * 30%                             |
+| Pass all sample tests      | 10%         | (# of passed tests / # of sample tests) * 10%                             |
 | Pass all TA-only unit tests        | 40%         | (`# of passed tests` / `# of unit tests`) * 40%                                |
-| Pass all TA-only integrated tests  | 30%         | (`# of passed tests` / `# of integrated tests`) * 10%                        |
+| Pass all TA-only integrated tests  | 30%         | (`# of passed tests` / `# of integrated tests`) * 30%                        |
 | Code Style                 | 10%         | Get 10% if no error in code style checking. Deduct 1% for each 5 errors.  |
 | Bonus Task 1: Pass tests for Bonus tasks 1 | Up to 10%    |  (`# of passed tests` / `# of all tests`) * 10%                                      |
 | Bonus Task 2: new tests increasing branch coverage | Up to 5%    |  (`Branch Coverage of Your tests, including sample tests` - `Branch Coverage of Sample tests`) * 10% |
