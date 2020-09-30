@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="294addc6-b9fc-4824-9c4b-cacfd7251411" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/castle/comp3021/assignment/JesonMor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/castle/comp3021/assignment/JesonMor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +37,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="fix_type_in_grading_scheme" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -90,7 +91,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore.preview.features.used" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/artifacts" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -98,24 +99,24 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/artifacts/img" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/artifacts" />
+      <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/artifacts/img" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/artifacts/img" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.Test">
+  <component name="RunManager" selected="JAR Application.PA1_obfuscated.jar">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="castle.comp3021.assignment.Main" />
       <module name="COMP3021-2020Fall-PA1-Student-Version" />
@@ -142,6 +143,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PA1_obfuscated.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/artifacts/PA1_obfuscated.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="JarApplication" nameIsGenerated="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/artifacts/checkstyle-8.36-all.jar" />
+      <option name="PROGRAM_PARAMETERS" value="-c artifacts/style_checks.xml com.puppycrawl.tools.checkstyle.gui.Main src" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JAR Application.Unnamed" />
+      <item itemvalue="JAR Application.PA1_obfuscated.jar" />
+      <item itemvalue="JUnit.Test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JAR Application.PA1_obfuscated.jar" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -183,6 +205,10 @@
       <workItem from="1601027582031" duration="1955000" />
       <workItem from="1601214043697" duration="141000" />
       <workItem from="1601214199442" duration="358000" />
+      <workItem from="1601216121511" duration="507000" />
+      <workItem from="1601296993801" duration="2195000" />
+      <workItem from="1601370143281" duration="638000" />
+      <workItem from="1601435707184" duration="1186000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1599619789508</created>
@@ -350,11 +376,11 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="328" y="106" key="#Project_Structure/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599619196773" />
-    <state x="304" y="187" width="1071" height="748" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600332917057">
+    <state x="304" y="187" width="1071" height="772" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601370317924">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599619684599" />
-    <state x="304" y="187" width="1071" height="748" key="#com.intellij.execution.impl.EditConfigurationsDialog/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1600332917057" />
+    <state x="304" y="187" width="1071" height="772" key="#com.intellij.execution.impl.EditConfigurationsDialog/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1601370317924" />
     <state x="234" y="102" key="CommitChangelistDialog2" timestamp="1601027698586">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -367,44 +393,45 @@
     </state>
     <state x="165" y="93" key="DiffContextDialog/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599620432334" />
     <state x="165" y="93" width="1344" height="840" key="DiffContextDialog/624.-1057.1920.1057/43.0.1637.1050/-1296.-1057.1920.1057@43.0.1637.1050" timestamp="1600435910952" />
-    <state width="1638" height="284" key="GridCell.Tab.0.bottom" timestamp="1599628349154">
+    <state width="1638" height="284" key="GridCell.Tab.0.bottom" timestamp="1601370794685">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="284" key="GridCell.Tab.0.bottom/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599620487809" />
-    <state width="1638" height="284" key="GridCell.Tab.0.bottom/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1599628349154" />
-    <state width="1638" height="284" key="GridCell.Tab.0.center" timestamp="1599628349152">
+    <state width="1638" height="284" key="GridCell.Tab.0.bottom/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1601370794685" />
+    <state width="1638" height="284" key="GridCell.Tab.0.center" timestamp="1601370794683">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="284" key="GridCell.Tab.0.center/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599620487801" />
-    <state width="1638" height="284" key="GridCell.Tab.0.center/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1599628349152" />
-    <state width="1638" height="284" key="GridCell.Tab.0.left" timestamp="1599628349151">
+    <state width="1638" height="284" key="GridCell.Tab.0.center/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1601370794683" />
+    <state width="1638" height="284" key="GridCell.Tab.0.left" timestamp="1601370794682">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="284" key="GridCell.Tab.0.left/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599620487798" />
-    <state width="1638" height="284" key="GridCell.Tab.0.left/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1599628349151" />
-    <state width="1638" height="284" key="GridCell.Tab.0.right" timestamp="1599628349153">
+    <state width="1638" height="284" key="GridCell.Tab.0.left/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1601370794682" />
+    <state width="1638" height="284" key="GridCell.Tab.0.right" timestamp="1601370794684">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="284" key="GridCell.Tab.0.right/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599620487804" />
-    <state width="1638" height="284" key="GridCell.Tab.0.right/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1599628349153" />
-    <state x="328" y="106" key="SettingsEditor" timestamp="1601214074000">
+    <state width="1638" height="284" key="GridCell.Tab.0.right/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1601370794684" />
+    <state x="328" y="106" key="SettingsEditor" timestamp="1601305393356">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="328" y="106" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1601214074000" />
     <state x="328" y="106" key="SettingsEditor/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599619404617" />
     <state x="328" y="106" key="SettingsEditor/624.-1057.1920.1057/0.0.1680.1050/-1296.-1057.1920.1057@0.0.1680.1050" timestamp="1599726074766" />
     <state x="366" y="106" key="SettingsEditor/624.-1057.1920.1057/47.0.1633.1050/-1296.-1057.1920.1057@47.0.1633.1050" timestamp="1600267765095" />
-    <state x="328" y="106" key="SettingsEditor/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1600957348670" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1601027700019">
+    <state x="328" y="106" key="SettingsEditor/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1601305393356" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1601215906968">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1601027700019" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1601215906968" />
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599622187604" />
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/624.-1057.1920.1057/0.0.1680.1050/-1296.-1057.1920.1057@0.0.1680.1050" timestamp="1599925284913" />
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1600436380199" />
-    <state x="636" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600148086022">
+    <state x="636" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601215899901">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="636" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050@0.0.1680.1050" timestamp="1601215899901" />
     <state x="636" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1600148086022" />
     <state x="509" y="374" key="git4idea.ui.GitTagDialog" timestamp="1599619834414">
       <screen x="0" y="0" width="1680" height="1050" />

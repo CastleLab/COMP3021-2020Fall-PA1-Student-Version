@@ -81,7 +81,7 @@ public class JesonMor extends Game {
      * Student can use {@link Player#getScore()} to get the current score of a player before updating.
      * {@link Player#setScore(int)} can be used to update the score of a player.
      * <p>
-     * <strong>Attention: Student should make NO assumption that the {@link Move} is valid.</strong>
+     * <strong>Attention: do not need to validate move in this method.</strong>
      *
      * @param player the player who just makes a move
      * @param piece  the piece that is just moved
