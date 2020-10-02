@@ -85,7 +85,7 @@ The configuration has the following fields:
           (3) The size of gameboard is **at most 25**.
 * `numMovesProtection`: Within the first `numMovesProtection` number of moves, the following things are **NOT** allowed: 
                         (1) capture the enemy's pieces
-                        (2) win the game
+                        (2) win the game by moving a piece out of central place
 * `players`: An array of two players in the game.
              The order of players moving pieces when game starts is the order in this array. 
 * `initialBoard`: The initial gameboard when game starts. 
@@ -123,7 +123,7 @@ Pieces of user player should be put in the bottom row while pieces of computer p
 There is a field of `Configuration` class called `numMovesProtection` which represents that within the first
  `numMovesProtection` number of moves, the following things are not allowed: 
 * capture the enemy's pieces
-* win the game
+* win the game by moving a piece out of central place
 
 ### Score Mechanism
 
