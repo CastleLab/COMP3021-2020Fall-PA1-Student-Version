@@ -203,6 +203,8 @@ You can get 1 point for each 10% improvement of branch coverage.
 
 Your additional tests should be put in the `AdditionalTests` class in folder `src/test/java/castle/comp3021/assignment`.
 
+We use JaCoCo test coverage runner in IntelliJ to measure branch coverage. 
+
 ## Obfuscated Version
 
 We provide an obfuscated demo program which implements Jeson Mor. 
