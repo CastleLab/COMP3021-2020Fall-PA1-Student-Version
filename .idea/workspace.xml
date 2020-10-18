@@ -30,126 +30,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b199ce3f-b477-49f0-91ed-960bb28fbfd8" name="Default Changelist" comment="Merge branch 'PA2_TA_version'&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/castle/comp3021/assignment/protocol/io/Deserializer.java">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="b199ce3f-b477-49f0-91ed-960bb28fbfd8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/COMP3021-2020Fall-PA1-Student-Version.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FAQ.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/allclasses-index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/allpackages-index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/castle/comp3021/assignment/JesonMor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/castle/comp3021/assignment/Main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/castle/comp3021/assignment/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/castle/comp3021/assignment/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/castle/comp3021/assignment/piece/Archer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/castle/comp3021/assignment/piece/Knight.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/castle/comp3021/assignment/piece/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/castle/comp3021/assignment/piece/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/castle/comp3021/assignment/player/ConsolePlayer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/castle/comp3021/assignment/player/RandomPlayer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/castle/comp3021/assignment/player/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/castle/comp3021/assignment/player/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/castle/comp3021/assignment/protocol/Color.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/castle/comp3021/assignment/protocol/Configuration.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/castle/comp3021/assignment/protocol/Game.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/castle/comp3021/assignment/protocol/Move.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/castle/comp3021/assignment/protocol/MoveRecord.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/castle/comp3021/assignment/protocol/Piece.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/castle/comp3021/assignment/protocol/Place.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/castle/comp3021/assignment/protocol/Player.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/castle/comp3021/assignment/protocol/exception/InvalidConfigurationError.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/castle/comp3021/assignment/protocol/exception/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/castle/comp3021/assignment/protocol/exception/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/castle/comp3021/assignment/protocol/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/castle/comp3021/assignment/protocol/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/constant-values.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/deprecated-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/element-list" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/help-doc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-10.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-11.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-12.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-13.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-14.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-15.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-16.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-17.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-18.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-19.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-20.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-21.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-9.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/member-search-index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/member-search-index.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/overview-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/overview-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/package-search-index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/package-search-index.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/resources/glass.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/resources/x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script-dir/external/jquery/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script-dir/images/ui-bg_glass_55_fbf9ee_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script-dir/images/ui-bg_glass_65_dadada_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script-dir/images/ui-bg_glass_75_dadada_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script-dir/images/ui-bg_glass_75_e6e6e6_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script-dir/images/ui-bg_glass_95_fef1ec_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script-dir/images/ui-bg_highlight-soft_75_cccccc_1x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script-dir/images/ui-icons_222222_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script-dir/images/ui-icons_2e83ff_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script-dir/images/ui-icons_454545_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script-dir/images/ui-icons_888888_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script-dir/images/ui-icons_cd0a0a_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script-dir/jquery-3.4.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script-dir/jquery-ui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script-dir/jquery-ui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script-dir/jquery-ui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script-dir/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script-dir/jquery-ui.structure.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script-dir/jquery-ui.structure.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script-dir/jszip-utils/dist/jszip-utils-ie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script-dir/jszip-utils/dist/jszip-utils-ie.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script-dir/jszip-utils/dist/jszip-utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script-dir/jszip-utils/dist/jszip-utils.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script-dir/jszip/dist/jszip.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script-dir/jszip/dist/jszip.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/serialized-form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/system-properties.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/type-search-index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/type-search-index.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/castle/comp3021/assignment/JesonMor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/castle/comp3021/assignment/JesonMor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/castle/comp3021/assignment/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/castle/comp3021/assignment/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/castle/comp3021/assignment/piece/Archer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/castle/comp3021/assignment/piece/Archer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/castle/comp3021/assignment/piece/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/castle/comp3021/assignment/piece/Knight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/castle/comp3021/assignment/player/ConsolePlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/castle/comp3021/assignment/player/ConsolePlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/castle/comp3021/assignment/player/RandomPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/castle/comp3021/assignment/player/RandomPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/castle/comp3021/assignment/protocol/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/castle/comp3021/assignment/protocol/Configuration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/castle/comp3021/assignment/protocol/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/castle/comp3021/assignment/protocol/Piece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/castle/comp3021/assignment/protocol/Place.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/castle/comp3021/assignment/protocol/Place.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/castle/comp3021/assignment/AdditionalTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/castle/comp3021/assignment/protocol/ArcherTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/castle/comp3021/assignment/protocol/ArcherTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/castle/comp3021/assignment/protocol/ConsolePlayerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/castle/comp3021/assignment/protocol/ConsolePlayerTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/castle/comp3021/assignment/protocol/GameMockPlayerIntegratedTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/castle/comp3021/assignment/protocol/GameMockPlayerIntegratedTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/castle/comp3021/assignment/protocol/GameUnitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/castle/comp3021/assignment/protocol/GameUnitTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/castle/comp3021/assignment/protocol/KnightTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/castle/comp3021/assignment/protocol/KnightTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/castle/comp3021/assignment/protocol/MainTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/castle/comp3021/assignment/protocol/MainTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/castle/comp3021/assignment/protocol/RandomPlayerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/castle/comp3021/assignment/protocol/RandomPlayerTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/castle/comp3021/assignment/util/Compares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/castle/comp3021/assignment/util/Compares.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -429,14 +311,7 @@
       <workItem from="1602503243140" duration="61000" />
       <workItem from="1602503307562" duration="272000" />
       <workItem from="1602521452408" duration="88000" />
-      <workItem from="1603012806103" duration="233000" />
-    </task>
-    <task id="LOCAL-00015" summary="tests and grading scheme">
-      <created>1599396670097</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1599396670097</updated>
+      <workItem from="1603012806103" duration="1114000" />
     </task>
     <task id="LOCAL-00016" summary="JavaDoc">
       <created>1599397416407</created>
@@ -774,7 +649,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601984437277</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Offer TA version">
+      <created>1603013288347</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1603013288348</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -836,7 +718,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Archer cannot win by leaving central place;&#10;cannot win within numMovesProtection moves" />
     <MESSAGE value="update obfuscated version" />
     <MESSAGE value="FAQ Q1 and Q2" />
     <MESSAGE value="update javadoc" />
@@ -861,7 +742,8 @@
     <MESSAGE value="prepare student version using Java Modularity" />
     <MESSAGE value="prepare artifacts" />
     <MESSAGE value="integrate obfuscation process" />
-    <option name="LAST_COMMIT_MESSAGE" value="integrate obfuscation process" />
+    <MESSAGE value="Offer TA version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Offer TA version" />
   </component>
   <component name="WindowStateProjectService">
     <state x="328" y="106" key="#Project_Structure" timestamp="1601799135154">
@@ -898,7 +780,7 @@
     <state x="541" y="124" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599619142180" />
     <state x="521" y="246" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/624.-1057.1920.1057/0.0.1680.1050/-1296.-1057.1920.1057@0.0.1680.1050" timestamp="1599397053568" />
     <state x="521" y="246" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1599480535933" />
-    <state x="546" y="0" width="1016" height="1050" key="CommitChangelistDialog2" timestamp="1602503277470">
+    <state x="546" y="0" width="1016" height="1050" key="CommitChangelistDialog2" timestamp="1603013288065">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="448" y="40" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1601215959417" />
@@ -906,7 +788,7 @@
     <state x="231" y="28" key="CommitChangelistDialog2/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1601800675739" />
     <state x="448" y="40" key="CommitChangelistDialog2/624.-1057.1920.1057/0.0.1680.1050/-1296.-1057.1920.1057@0.0.1680.1050" timestamp="1599480558210" />
     <state x="-784" y="-1039" key="CommitChangelistDialog2/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@-1296.-1080.1920.1080" timestamp="1599465158614" />
-    <state x="546" y="0" width="1016" height="1050" key="CommitChangelistDialog2/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1602503277470" />
+    <state x="546" y="0" width="1016" height="1050" key="CommitChangelistDialog2/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1603013288065" />
     <state x="247" y="40" width="1344" height="840" key="DiffContextDialog" timestamp="1600440489609">
       <screen x="54" y="0" width="1626" height="1050" />
     </state>
@@ -1013,7 +895,7 @@
     <state x="296" y="49" key="SettingsEditor/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1601800607127" />
     <state x="328" y="106" key="SettingsEditor/624.-1057.1920.1057/0.0.1680.1050/-1296.-1057.1920.1057@0.0.1680.1050" timestamp="1599401459606" />
     <state x="328" y="105" key="SettingsEditor/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1601984404130" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1601984439378">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1603013297163">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1601215965798" />
@@ -1021,7 +903,7 @@
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1601800684616" />
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/624.-1057.1920.1057/0.0.1680.1050/-1296.-1057.1920.1057@0.0.1680.1050" timestamp="1599480561836" />
     <state x="-793" y="-807" key="Vcs.Push.Dialog.v2/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@-1296.-1080.1920.1080" timestamp="1599465162965" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1601984439378" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1603013297163" />
     <state x="636" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602073542562">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
