@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"castle.comp3021.assignment"},{"l":"castle.comp3021.assignment.piece"},{"l":"castle.comp3021.assignment.player"},{"l":"castle.comp3021.assignment.protocol"},{"l":"castle.comp3021.assignment.protocol.exception"}]

@@ -26,7 +26,7 @@ public abstract class Piece {
     public abstract char getLabel();
 
     /**
-     * Returns an array of moves that are valid given the current place of the piece.
+     * Returns a set of moves that are valid to make given the current place of the piece.
      *
      * @param game   the game object
      * @param source the current place of the piece

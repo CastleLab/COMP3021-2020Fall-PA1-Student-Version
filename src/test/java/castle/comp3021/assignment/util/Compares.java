@@ -1,7 +1,6 @@
 package castle.comp3021.assignment.util;
 
 import castle.comp3021.assignment.protocol.Piece;
-
 import java.util.Arrays;
 import java.util.Objects;
 

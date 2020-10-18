@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="COMP3021-2020Fall-PA:jar">
+    <output-path>$PROJECT_DIR$/target/artifacts/COMP3021_2020Fall_PA_jar</output-path>
+    <root id="archive" name="COMP3021-2020Fall-PA.jar">
+      <element id="module-output" name="COMP3021-2020Fall-PA" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

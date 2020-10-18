@@ -18,9 +18,7 @@ public class Configuration implements Cloneable {
     private final int size;
 
     /**
-     * An array of two players in the game.
-     * Note that in the implementation of {@link Game#start()} the first player in this array moves first when game
-     * starts.
+     * All players in the game.
      */
     private Player[] players;
 
@@ -36,18 +34,12 @@ public class Configuration implements Cloneable {
      */
     private Place centralPlace;
 
-    /**
-     * This number means: within the first {@code numMovesProtection} number of moves in the game, capturing
-     * {@link Piece}s is not allowed.
-     */
     private final int numMovesProtection;
 
     /**
      * Constructor of configuration
      *
      * @param size size of the gameboard.
-     * @param players an array of two players in the game, the first player should move first when game starts.
-     * @param numMovesProtection the first number of moves where capturing pieces is not allowed
      */
     public Configuration(int size, Player[] players, int numMovesProtection) {
         // validate size
@@ -57,8 +49,8 @@ public class Configuration implements Cloneable {
         if (size % 2 != 1) {
             throw new InvalidConfigurationError("size of gameboard must be an odd number");
         }
-        if (size > 25) {
-            throw new InvalidConfigurationError("size of gameboard is at most 25");
+        if (size > 26) {
+            throw new InvalidConfigurationError("size of gameboard is at most 26");
         }
         this.size = size;
         // We only have 2 players

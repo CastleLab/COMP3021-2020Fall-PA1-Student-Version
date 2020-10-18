@@ -6,19 +6,18 @@ import castle.comp3021.assignment.protocol.Piece;
 import castle.comp3021.assignment.protocol.Place;
 import castle.comp3021.assignment.protocol.Player;
 
+import java.util.ArrayList;
+
 /**
  * Archer piece that moves similar to cannon in chinese chess.
  * Rules of move of Archer can be found in wikipedia (https://en.wikipedia.org/wiki/Xiangqi#Cannon).
- * <p>
- * <strong>Attention: If you want to implement Archer as the bonus task, you should remove "{@code throw new
- * UnsupportedOperationException();}" in the constructor of this class.</strong>
  *
  * @see <a href='https://en.wikipedia.org/wiki/Xiangqi#Cannon'>Wikipedia</a>
  */
 public class Archer extends Piece {
     public Archer(Player player) {
         super(player);
-        throw new UnsupportedOperationException(); // remove this line if you plan to implement Archer
+//        throw new UnsupportedOperationException();
     }
 
     @Override
@@ -26,24 +25,41 @@ public class Archer extends Piece {
         return 'A';
     }
 
-    /**
-     * Returns an array of moves that are valid given the current place of the piece.
-     * Given the {@link Game} object and the {@link Place} that current knight piece locates, this method should
-     * return ALL VALID {@link Move}s according to the current {@link Place} of this knight piece.
-     * All the returned {@link Move} should have source equal to the source parameter.
-     * <p>
-     * Hint: you should consider corner cases when the {@link Move} is not valid on the gameboard.
-     * Several tests are provided and your implementation should pass them.
-     * <p>
-     * <strong>Attention: Student should make sure all {@link Move}s returned are valid.</strong>
-     *
-     * @param game   the game object
-     * @param source the current place of the piece
-     * @return an array of available moves
-     */
     @Override
     public Move[] getAvailableMoves(Game game, Place source) {
         // TODO student implementation
-        return new Move[0];
+        var moves = new ArrayList<Move>();
+        for (int x = 0; x < game.getConfiguration().getSize(); x++) {
+            if (x != source.x()) {
+                moves.add(new Move(source, x, source.y()));
+            }
+        }
+        for (int y = 0; y < game.getConfiguration().getSize(); y++) {
+            if (y != source.y()) {
+                moves.add(new Move(source, source.x(), y));
+            }
+        }
+
+        return moves.stream()
+                .filter(move -> validateMove(game, move))
+                .toArray(Move[]::new);
+    }
+
+    private boolean validateMove(Game game, Move move) {
+        var rules = new Rule[]{
+                new OutOfBoundaryRule(),
+                new OccupiedRule(),
+                new VacantRule(),
+                new NilMoveRule(),
+                new FirstNMovesProtectionRule(game.getConfiguration().getNumMovesProtection()),
+                new ArcherMoveRule(),
+        };
+        for (var rule :
+                rules) {
+            if (!rule.validate(game, move)) {
+                return false;
+            }
+        }
+        return true;
     }
 }

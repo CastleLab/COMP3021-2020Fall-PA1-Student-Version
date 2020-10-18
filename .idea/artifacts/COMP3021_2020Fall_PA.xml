@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="COMP3021-2020Fall-PA">
+    <output-path>$PROJECT_DIR$/target/artifacts/COMP3021_2020Fall_PA</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="castle.comp3021.assignment.gui.GUIMain" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="COMP3021_2020Fall_PA.jar">
+        <element id="module-output" name="COMP3021-2020Fall-PA" />
+      </element>
+    </root>
+  </artifact>
+</component>

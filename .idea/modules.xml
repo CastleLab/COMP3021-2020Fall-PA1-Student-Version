@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/COMP3021-2020Fall-PA1-Student-Version.iml" filepath="$PROJECT_DIR$/COMP3021-2020Fall-PA1-Student-Version.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/COMP3021-2020Fall-PA.iml" filepath="$PROJECT_DIR$/.idea/COMP3021-2020Fall-PA.iml" />
     </modules>
   </component>
 </project>
