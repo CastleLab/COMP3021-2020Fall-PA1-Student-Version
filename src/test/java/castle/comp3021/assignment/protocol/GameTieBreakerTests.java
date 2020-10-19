@@ -13,7 +13,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class GameTieBreakerTests {
     @Test
     @OptionalArcherImplementation
-    @SampleTest
     public void testMoveAndDeadlock() {
         var player1 = new MockPlayer();
         var player2 = new MockPlayer();

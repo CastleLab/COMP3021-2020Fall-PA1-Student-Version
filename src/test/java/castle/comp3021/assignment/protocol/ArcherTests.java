@@ -31,7 +31,6 @@ public class ArcherTests {
      * valid moves.
      */
     @Test
-    @SampleTest
     public void testGetAvailableMovesSimple() {
         var archer1 = new Archer(player1);
         var archer2 = new Archer(player2);
@@ -60,7 +59,6 @@ public class ArcherTests {
      * valid moves.
      */
     @Test
-    @UnitTest
     public void testGetAvailableMovesComplex() {
         var archer1 = new Archer(player1);
         var archer2 = new Archer(player2);

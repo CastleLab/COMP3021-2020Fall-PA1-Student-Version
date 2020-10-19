@@ -203,12 +203,11 @@ public class GameUnitTests {
         game.board[3][2] = null;
         game.numMoves = 4;
         game.currentPlayer = player2;
-        var winner = game.getWinner(player1, piece2, new Move(1, 1, 2, 1));
+        var winner = game.getWinner(player2, piece2, new Move(1, 1, 2, 1));
         assertEquals(player2, winner);
     }
 
     @Test
-    @UnitTest
     @OptionalArcherImplementation
     public void testNotWinByArcherLeavingCentralPlace() {
         var player1 = new MockPlayer();
@@ -222,7 +221,7 @@ public class GameUnitTests {
         game.board[2][2] = archer2;
         game.numMoves = 4;
         game.currentPlayer = player2;
-        var winner = game.getWinner(player1, archer2, new Move(2, 2, 3, 2));
+        var winner = game.getWinner(player2, archer2, new Move(2, 2, 3, 2));
         assertNull(winner);
     }
 
