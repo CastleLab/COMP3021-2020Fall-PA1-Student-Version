@@ -146,13 +146,15 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.Test">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -321,13 +323,7 @@
       <workItem from="1602503307562" duration="272000" />
       <workItem from="1602521452408" duration="88000" />
       <workItem from="1603012806103" duration="1154000" />
-    </task>
-    <task id="LOCAL-00017" summary="Code skeleton">
-      <created>1599399528601</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1599399528601</updated>
+      <workItem from="1603104838904" duration="178000" />
     </task>
     <task id="LOCAL-00018" summary="common asked questions">
       <created>1599399806182</created>
@@ -665,7 +661,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603018410460</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="fix errors in tests">
+      <created>1603104896317</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1603104896317</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -727,7 +730,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="FAQ Q1 and Q2" />
     <MESSAGE value="update javadoc" />
     <MESSAGE value="minor revision" />
     <MESSAGE value="add Bonus Task 2" />
@@ -752,7 +754,8 @@
     <MESSAGE value="integrate obfuscation process" />
     <MESSAGE value="Offer TA version" />
     <MESSAGE value="fix small annotation issue" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix small annotation issue" />
+    <MESSAGE value="fix errors in tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix errors in tests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="328" y="106" key="#Project_Structure" timestamp="1601799135154">
@@ -789,7 +792,7 @@
     <state x="541" y="124" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599619142180" />
     <state x="521" y="246" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/624.-1057.1920.1057/0.0.1680.1050/-1296.-1057.1920.1057@0.0.1680.1050" timestamp="1599397053568" />
     <state x="521" y="246" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1599480535933" />
-    <state x="546" y="0" width="1016" height="1050" key="CommitChangelistDialog2" timestamp="1603018410352">
+    <state x="546" y="0" width="1016" height="1050" key="CommitChangelistDialog2" timestamp="1603104896166">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="448" y="40" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1601215959417" />
@@ -797,7 +800,7 @@
     <state x="231" y="28" key="CommitChangelistDialog2/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1601800675739" />
     <state x="448" y="40" key="CommitChangelistDialog2/624.-1057.1920.1057/0.0.1680.1050/-1296.-1057.1920.1057@0.0.1680.1050" timestamp="1599480558210" />
     <state x="-784" y="-1039" key="CommitChangelistDialog2/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@-1296.-1080.1920.1080" timestamp="1599465158614" />
-    <state x="546" y="0" width="1016" height="1050" key="CommitChangelistDialog2/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1603018410352" />
+    <state x="546" y="0" width="1016" height="1050" key="CommitChangelistDialog2/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1603104896166" />
     <state x="247" y="40" width="1344" height="840" key="DiffContextDialog" timestamp="1600440489609">
       <screen x="54" y="0" width="1626" height="1050" />
     </state>
@@ -904,7 +907,7 @@
     <state x="296" y="49" key="SettingsEditor/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1601800607127" />
     <state x="328" y="106" key="SettingsEditor/624.-1057.1920.1057/0.0.1680.1050/-1296.-1057.1920.1057@0.0.1680.1050" timestamp="1599401459606" />
     <state x="328" y="105" key="SettingsEditor/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1601984404130" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1603018411938">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1603104897486">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1601215965798" />
@@ -912,7 +915,7 @@
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/1680.-659.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1601800684616" />
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/624.-1057.1920.1057/0.0.1680.1050/-1296.-1057.1920.1057@0.0.1680.1050" timestamp="1599480561836" />
     <state x="-793" y="-807" key="Vcs.Push.Dialog.v2/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@-1296.-1080.1920.1080" timestamp="1599465162965" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1603018411938" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/624.-1080.1920.1080/0.0.1680.1050/-1296.-1080.1920.1080@0.0.1680.1050" timestamp="1603104897486" />
     <state x="636" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602073542562">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

@@ -4,7 +4,6 @@ import castle.comp3021.assignment.mock.MockPlayer;
 import castle.comp3021.assignment.piece.Knight;
 import castle.comp3021.assignment.protocol.*;
 import castle.comp3021.assignment.util.IntegratedTest;
-import castle.comp3021.assignment.util.OptionalArcherImplementation;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

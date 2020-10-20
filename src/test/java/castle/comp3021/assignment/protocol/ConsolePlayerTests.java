@@ -8,19 +8,50 @@ import castle.comp3021.assignment.util.SampleTest;
 import castle.comp3021.assignment.util.UnitTest;
 import org.junit.jupiter.api.Test;
 
-import java.io.ByteArrayInputStream;
-import java.io.InputStream;
+import java.io.*;
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
+class QueuedStringInputStream extends InputStream {
+    private final List<byte[]> inputs;
+
+    private int currentInputIndex;
+    private int currentInputPointer;
+
+    public QueuedStringInputStream(String... inputs) {
+        this.inputs = Arrays.stream(inputs).map(String::getBytes).collect(Collectors.toList());
+        currentInputIndex = 0;
+        currentInputPointer = 0;
+    }
+
+    @Override
+    public int read() {
+        if (currentInputIndex >= this.inputs.size()) {
+            // all inputs have been consumed.
+            return -1;
+        }
+        if (currentInputPointer >= this.inputs.get(currentInputIndex).length) {
+            // current input finishes, switch to next one
+            currentInputIndex++;
+            currentInputPointer = 0;
+            // pretend input stream reads to the end, but it actually not
+            return -1;
+        }
+        return this.inputs.get(currentInputIndex)[currentInputPointer++];
+    }
+}
 
 public class ConsolePlayerTests {
     @Test
     @SampleTest
     public void testNextMove() {
-        String data = "c3->c2\r\n"; // correct
+        var stream = new QueuedStringInputStream("c3->c2\r\n"); //correct
         InputStream stdin = System.in;
         try {
-            System.setIn(new ByteArrayInputStream(data.getBytes()));
+            System.setIn(stream);
             var player1 = new MockPlayer(Color.PURPLE);
             var player2 = new ConsolePlayer("RandomPlayer");
             var config = new Configuration(3, new Player[]{player1, player2});
@@ -39,10 +70,10 @@ public class ConsolePlayerTests {
     @Test
     @UnitTest
     public void testNextMoveInvalidInput0() {
-        String data = "c3->c4\r\nc3->b3\r\n"; // out of boundary
+        var stream = new QueuedStringInputStream("c3->c4\r\n", "c3->b3\r\n");// out of boundary
         InputStream stdin = System.in;
         try {
-            System.setIn(new ByteArrayInputStream(data.getBytes()));
+            System.setIn(stream);
             var player1 = new MockPlayer(Color.PURPLE);
             var player2 = new ConsolePlayer("RandomPlayer");
             var config = new Configuration(3, new Player[]{player1, player2});
@@ -61,10 +92,10 @@ public class ConsolePlayerTests {
     @Test
     @UnitTest
     public void testNextMoveInvalidInput1() {
-        String data = "1b->2b\r\nc3->b3\r\n"; // invalid format
+        var stream = new QueuedStringInputStream("1b->2b\r\n", "c3->b3\r\n"); // invalid format
         InputStream stdin = System.in;
         try {
-            System.setIn(new ByteArrayInputStream(data.getBytes()));
+            System.setIn(stream);
             var player1 = new MockPlayer(Color.PURPLE);
             var player2 = new ConsolePlayer("RandomPlayer");
             var config = new Configuration(3, new Player[]{player1, player2});
@@ -83,10 +114,10 @@ public class ConsolePlayerTests {
     @Test
     @UnitTest
     public void testNextMoveInvalidInput2() {
-        String data = "c3jdakfja\r\nc3->b3\r\n"; // invalid format
+        var stream = new QueuedStringInputStream("c3jdakfja\r\n", "c3->b3\r\n");// invalid format
         InputStream stdin = System.in;
         try {
-            System.setIn(new ByteArrayInputStream(data.getBytes()));
+            System.setIn(stream);
             var player1 = new MockPlayer(Color.PURPLE);
             var player2 = new ConsolePlayer("RandomPlayer");
             var config = new Configuration(3, new Player[]{player1, player2});
@@ -105,10 +136,10 @@ public class ConsolePlayerTests {
     @Test
     @UnitTest
     public void testNextMoveInvalidInput3() {
-        String data = "c3->c3\r\nc3->b3\r\n"; // same source and destination
+        var stream = new QueuedStringInputStream("c3->c3\r\n", "c3->b3\r\n"); // same source and destination
         InputStream stdin = System.in;
         try {
-            System.setIn(new ByteArrayInputStream(data.getBytes()));
+            System.setIn(stream);
             var player1 = new MockPlayer(Color.PURPLE);
             var player2 = new ConsolePlayer("RandomPlayer");
             var config = new Configuration(3, new Player[]{player1, player2});
@@ -127,10 +158,10 @@ public class ConsolePlayerTests {
     @Test
     @UnitTest
     public void testNextMoveInvalidInput4() {
-        String data = "c11->b11\r\n"; // correct
+        var stream = new QueuedStringInputStream("c11->b11\r\n");  // correct
         InputStream stdin = System.in;
         try {
-            System.setIn(new ByteArrayInputStream(data.getBytes()));
+            System.setIn(stream);
             var player1 = new MockPlayer(Color.PURPLE);
             var player2 = new ConsolePlayer("RandomPlayer");
             var config = new Configuration(11, new Player[]{player1, player2});
@@ -149,10 +180,10 @@ public class ConsolePlayerTests {
     @Test
     @UnitTest
     public void testNextMoveInvalidInput5() {
-        String data = "c0->c3\r\nc3->b3\r\n"; // index underflow
+        var stream = new QueuedStringInputStream("c0->c3\r\n", "c3->b3\r\n");// index underflow
         InputStream stdin = System.in;
         try {
-            System.setIn(new ByteArrayInputStream(data.getBytes()));
+            System.setIn(stream);
             var player1 = new MockPlayer(Color.PURPLE);
             var player2 = new ConsolePlayer("RandomPlayer");
             var config = new Configuration(3, new Player[]{player1, player2});
@@ -171,10 +202,10 @@ public class ConsolePlayerTests {
     @Test
     @UnitTest
     public void testNextMoveInvalidInput6() {
-        String data = "c1->c3\r\nc3->b3\r\n"; // no piece in source place
+        var stream = new QueuedStringInputStream("c1->c3\r\n", "c3->b3\r\n"); // no piece in source place
         InputStream stdin = System.in;
         try {
-            System.setIn(new ByteArrayInputStream(data.getBytes()));
+            System.setIn(stream);
             var player1 = new MockPlayer(Color.PURPLE);
             var player2 = new ConsolePlayer("RandomPlayer");
             var config = new Configuration(3, new Player[]{player1, player2});
@@ -193,10 +224,10 @@ public class ConsolePlayerTests {
     @Test
     @UnitTest
     public void testNextMoveInvalidInput7() {
-        String data = "a1->a2\r\nc3->b3\r\n"; // not belonging
+        var stream = new QueuedStringInputStream("a1->a2\r\n", "c3->b3\r\n"); // not belonging
         InputStream stdin = System.in;
         try {
-            System.setIn(new ByteArrayInputStream(data.getBytes()));
+            System.setIn(stream);
             var player1 = new MockPlayer(Color.PURPLE);
             var player2 = new ConsolePlayer("RandomPlayer");
             var config = new Configuration(3, new Player[]{player1, player2});
